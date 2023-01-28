@@ -1,8 +1,6 @@
-bol=bool(True or False)
-bol_2=bool(True or False)
+bol=True
 while bol==True:
-    bol=bool(True or False)
-    bol_2=bool(True or False)
+    bol_2=True
 
     num_1=int(input("\nEnter any number :"))
     operator=str(input("\nEnter any operator : "))
