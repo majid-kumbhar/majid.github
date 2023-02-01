@@ -1,9 +1,9 @@
-bol=True
-while bol==True:
-    bol_2=True
+while True:
+    
 
     num_1=int(input("\nEnter any number :"))
     operator=str(input("\nEnter any operator : "))
+
     if operator=='/' or operator=="*" or operator=="-" or operator=="+":
 
         num_2=int(input("\nEnter any number :"))
@@ -26,19 +26,15 @@ while bol==True:
 
         print("\nInvalid operator try again ")
     
-    while bol_2==True:
+    while True:
 
-        decission=input("\nIf you want to continue then typy yes :")
+        decission=input("\nIf you want to continue then typy yes or no to exit \nenter here :")
         if decission=="yes":
-            decission="yes"
-            bol=True
-            bol_2=False
+            break
     
         elif decission=="no":
-            print("\nHave A Good Day BYE :)")
-            bol_2=False
-            bol=False
+            print("\nHave A Good Day BYE :)\n")
+            exit()
         
         else :
             print("\nPlease Refill \"yes\" or \"no\" :)")
-            bol_2==False
